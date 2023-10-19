@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+select, input[type="text"], input[type="email"], input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#movie-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+#reservations {
+    margin-top: 20px;
+}
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilo para la barra de desplazamiento tipo striped */
+.table-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.table-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.movie-image-cell img {
+    max-width: 50px; /* Ajusta el tamaño máximo de la imagen */
+    max-height: 70px; /* Mantiene la altura máxima */
+}
+
+@media (max-width: 600px) {
+    .action-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+}
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Estilo para el botón en hover */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Efecto de aumento de tamaño en hover */
+}
+
+/* Estilo para los botones de clase "edit-button" y "delete-button" */
+.edit-button, .delete-button {
+    background-color: #dc3545; /* Cambia el color de los botones de edición y eliminación */
+}
+
+/* Estilo para los botones de clase "edit-button" y "delete-button" en hover */
+.edit-button:hover, .delete-button:hover {
+    background-color: #c82333; /* Cambia el color en hover */
+}
+Con estos estilos, los botones tendrán un diseño más atractivo y tendrán un efecto de aumento de tamaño cuando el cursor pase sobre ellos. Además, los botones de edición y eliminación tendrán colores específicos y un cambio de color en el hover.
+
+Asegúrate de agregar la clase "edit-button" a los botones de edición y la clase "delete-button" a los botones de eliminación en tu archivo HTML para que los estilos se apliquen correctamente.
+
+
+
+
+
